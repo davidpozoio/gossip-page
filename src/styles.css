@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+
+    --main-bg-color: white;
+    --background-bg-color: #EDEDED;
+    --second-bg-color: #FF81CC99;
+    --highlighting-text-bg-color: #E2319B;
+    --line-bg-color: #AAAAAA;
+    --second-text-bg-color: #656565;
+    
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}

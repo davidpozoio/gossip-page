@@ -1,0 +1,40 @@
+.container-search-content{
+    width: calc(25vw - 1px);
+    height: 100vh;
+
+    border-left: 1px solid var(--line-bg-color) ;
+    background-color: var(--main-bg-color);
+}
+
+.search__text{
+    display: inline-flex;
+    align-items: center;
+
+    width: 270px;
+    height: 30px;
+
+    border-radius: 15px;
+    background-color: var(--line-bg-color);
+}
+
+.material-symbols-outlined{
+    color: var(--second-text-bg-color);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search__text-default{
+    color: var(--second-text-bg-color)
+}
+
+.last-gossip{
+    width: 270px;
+
+    background-color: var(--second-bg-color);
+    border-radius: 10px;
+}
+
+.last-gossip__h2, .gossip__text{
+    margin-top: 10px;
+    margin-left: 10px;
+}

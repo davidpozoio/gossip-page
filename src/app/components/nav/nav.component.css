@@ -1,0 +1,53 @@
+
+
+.nav{
+    min-width: 300px;
+    width: var(25vw - 1px);
+    height: 100vh;
+
+    border-right: 1px solid var(--line-bg-color);
+    background-color: var(--main-bg-color);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 9.375em;
+
+    background-color: var(--main-bg-color);
+}
+
+.logo__img{
+    width: 50%;
+    
+}
+
+.nav-option{
+    display: flex;
+    align-items: center;
+    
+
+    height: 4rem;
+    background-color: var(--main-bg-color);
+
+    font-weight: 700;
+    font-size: 24px
+}
+
+.nav-option__icon{
+    margin-right: 16px;
+    margin-left: 60px;
+}
+
+.gossip-button{
+    margin-left: 60px;
+
+    width: 200px;
+    height: 40px;
+
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--second-bg-color);
+}

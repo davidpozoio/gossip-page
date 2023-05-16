@@ -1,0 +1,71 @@
+<div class="container-home">
+    <header class="container-home__header">
+        <h1 class="container-home__h1">Home</h1>
+        <img class="container__icon-shape" src="../../../assets/img/icons/shape-square-regular-24.png" alt="cuadrado forma">
+    </header>
+    <div class="post-box">
+        <div class="post-box__post-profile">
+            <span class="photo-user">
+                <img class="photo-user__img" src="../../../assets/img/MyProfile.jpg" alt="user photo">
+            </span>
+            <span class="post-box__text">Tú ya sabes...</span>
+        </div>
+        <div class="post-footer">
+            <div class="social-icons">
+                <span class="material-symbols-outlined material-symbols-outlined--margin">
+                    add_photo_alternate
+                </span>
+                <span class="material-symbols-outlined material-symbols-outlined--margin">
+                    gif_box
+                </span>
+                <span class="material-symbols-outlined material-symbols-outlined--margin">
+                    equalizer
+                </span>
+                <span class="material-symbols-outlined material-symbols-outlined--margin">
+                    sentiment_satisfied
+                </span>
+                <span class="material-symbols-outlined material-symbols-outlined--margin">
+                    calendar_today
+                </span>
+            </div>
+            <button class="post-box__button">Chisme</button>
+        </div>
+    </div>
+    <div class="container-posts">
+        <div class="post" *ngFor="let x of [1,2,4,5]">
+            <div class="post__profile">
+                <span class="photo-user">
+                    <img class="photo-user__img" src="../../../assets/img/MyProfile.jpg" alt="user photo">
+                </span>
+                <span class="post__username">UserName</span>
+                <span class="post__id">@jhondue</span>
+                <span class="post__time">23s</span>
+            </div>
+            <div class="post__content">
+                <article class="post__article">
+                    Lorem ipsum dolor sit amet consectetur.                
+                </article>
+                <img class="post__img-article" src="../../../assets/img/article1.jpg" alt="img related to article">
+                <div class="post__footer">
+                    <div class="social-icons-post">
+                        <span class="material-symbols-outlined material-symbols-outlined--color">
+                            chat_bubble
+                        </span>
+                        <span class="material-symbols-outlined material-symbols-outlined--color">
+                            cached
+                        </span>
+                        <span class="material-symbols-outlined material-symbols-outlined--color">
+                            favorite
+                        </span>
+                        <span class="material-symbols-outlined material-symbols-outlined--color">
+                            share
+                        </span>
+                    </div>
+                    <div class="post__show-thread">
+                        Show this thread
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
